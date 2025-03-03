@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivani Lekkala - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            showSection('about'); // Show the About section by default
+        });
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #0a192f;
+            color: #ccd6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .sidebar {
+            width: 300px;
+            background: #112240;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 170, 0.5);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+        .sidebar nav ul li {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .sidebar nav ul li a {
+            color: #64ffda;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: block;
+            padding: 10px;
+            background: #0a192f;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .content {
+            width: 50%;
+            padding: 20px;
+            background: #112240;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 170, 0.5);
+            display: none;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Srivani Lekkala</h1>
+        <p>Computer Science & AI | Data analyst |Python Developer</p>
+        <nav>
+            <ul>
+                <li><a onclick="showSection('about')">About</a></li>
+                <li><a onclick="showSection('education')">Education</a></li>
+                <li><a onclick="showSection('projects')">Projects</a></li>
+                <li><a onclick="showSection('skills')">Skills</a></li>
+                <li><a onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div id="about" class="content section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Srivani Lekkala, a passionate Computer Science & DS enthusiast with a keen interest in Data Science and Python.
+        "Computer Science graduate with expertise in Python, HTML, CSS, and SQL. Passionate about data analysis, web development, 
+          and creating efficient solutions for real-world challenges. Quick learner with strong problem-solving skills, eager to 
+          apply knowledge to dynamic projects and continuously expand technical expertise."</p>
+    </div>
+
+    <div id="education" class="content section">
+        <h2>Education</h2>
+        <p>Bachelor of Technology -
+          Computer Science(Artificail Intelligence and Data Science) 
+          [Siddartha Institute of Science and Technology]-2021-2025
+          CGPA:9.7/10.0</p>
+    </div>
+
+    <div id="projects" class="content section">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Student Rank Predictor</strong> - 
+              Developed a machine learning model to predict student rankings based on academic performance using regression techniques. 
+              Utilized Python, Pandas, NumPy, Scikit-learn, and TensorFlow to enhance predictive accuracy.</li>
+            <li><strong>Weather Forecasting Analysis</strong>- 
+              Developed a web-based weather prediction system using the OpenWeather API for real-time forecasts. 
+              Integrated Streamlit for an interactive UI with dynamic data visualization using Matplotlib and Plotly.</li>
+        </ul>
+    </div>
+
+    <div id="skills" class="content section">
+        <h2>Skills</h2>
+        <p>Python, HTML,CSS,SQL</p>
+    </div>
+
+   <div id="contact" class="content section">
+        <h2>Contact</h2>
+        <p>Address: 2/49, Lekkalavari Palli, Mydukur, Kadapa, Andhra Pradesh, 516173</p>
+        <p>Email: <a href="mailto:lekkalasrivani123@gmail.com">lekkalasrivani123@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/srivani-lekkala-3b4464272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/srivani-lekkala</a></p>
+        <p>GitHub: <a href="https://github.com/srivani141" target="_blank">github.com/srivani141</a></p>
+    </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivani Lekkala - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function showSection(sectionId) {
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+            document.getElementById(sectionId).style.display = 'block';
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(section => section.style.display = 'none');
+        });
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background: #0a192f;
+            color: #ccd6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .sidebar {
+            width: 300px;
+            background: #112240;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 170, 0.5);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .sidebar h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .sidebar nav ul {
+            list-style: none;
+            padding: 0;
+            width: 100%;
+        }
+        .sidebar nav ul li {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0;
+        }
+        .sidebar nav ul li a {
+            color: #64ffda;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: block;
+            padding: 10px;
+            background: #0a192f;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .content {
+            width: 50%;
+            padding: 20px;
+            background: #112240;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 170, 0.5);
+            display: none;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            background: #0a192f;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #64ffda;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 1rem;
+        }
+        .contact-info a i {
+            font-size: 1.2rem;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+ 
